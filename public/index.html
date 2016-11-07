@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scraper 18</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.js'></script>
+
+    <!-- custom script -->
+    <script src="assets/js/app.js"></script>
+    <script src="https://use.typekit.net/fkr8gqb.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- custom style -->
+    <link rel='stylesheet' href='/assets/css/style.css'>
+
+
+</head>
+<body>
+<div class="container">
+
+    <!-- Navbar -->
+    <div class="row">
+        <div class="col-md-2">
+            <h1>Scrape18</h1>
+        </div>
+        <div class="col-md-2 col-md-offset-8">
+            <div class="row">
+                <div class="col-md-12" id="articleCounter">
+                    <!-- Story Number here -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="articleButtons">
+                    <a id="prev" href='#'>prev</a>
+                    <a id="next" href='#'>next</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Stories will show up in here -->
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div id="storyDisplay">
+                <!-- <p class="storyNum">Story #i</p> -->
+                <!-- <h2 class="storyTitle">Headline to the story shows up here</h2> -->
+                <!-- <p class="storyNutgraf">Nutgraf goes here</p> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Stories will show up in here -->
+    <div class="row">
+        <div class="col-md-6 col-md-offset-1">
+            <h3>Comments</h3>
+            <div id="commentDisplay">
+                <!-- <h3 class="commentHead">Comments</h3> -->
+                <!-- <div class="comment"> -->
+                <!-- <p class="commentAuthor">Name goes here <span class="deleteButton">X</span></p> -->
+                <!-- <p class="commentText">Text of comment goes here</p> -->
+                <!-- <p class="commentTime">Time of the comment.</p> -->
+            </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+            <div id="commentForm">
+                <!-- Leave Comment Here -->
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div class="container-fluid" id="footer">
+    <div class="col col-lg-12 gray" >
+        <p>UCF Ronnie Pryor</p>
+        <p>Copyright (c) 2016</p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* Basic Style rules */
+body {
+    background-color: #FFF7F1;
+}
+
+h1 {
+    font-family: paralucent-stencil, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h3{
+    border-bottom: 1px solid #e2e2e2;
+    margin-top: 3px;
+    font-weight: normal;
+    font-family: paralucent-stencil, sans-serif;
+}
+
+legend {
+    font-family: paralucent-stencil, sans-serif;
+}
+
+a{
+    color: #00B262;
+}
+
+a:hover{
+    color: #18CC14;
+}
+
+/* specific rules for specific items */
+/* Story rules */
+p.storyNum{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family: paralucent-stencil, sans-serif;
+}
+
+p.storyNutgraf {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#title {
+    margin-bottom: 5px;
+}
+
+/* Counter and buttons */
+#articleCounter {
+    margin-top:20px;
+}
+
+#prev {
+    margin-right: 28px;
+}
+
+/* Comments */
+.commentBody {
+    margin-bottom: 5px;
+}
+
+#commentDisplay {
+    margin-bottom: 100px;
+}
+
+.commentDate{
+    font-size:10px;
+    font-style:italic;
+    margin-bottom: 30px;
+}
+
+/* rules for the X button on comments */
+span:hover {
+    cursor: pointer;
+    color: #a2a2a2;
+}
+
+span {
+    color: #B0171F;
+}
+
+/* Footer */
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align:center;
+    background-color: #fff;
+}
+
+#footer p {
+    margin-bottom: 0;
+}
